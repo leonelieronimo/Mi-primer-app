@@ -5,9 +5,12 @@ const Header = () =>{
     return(
         <>
             <div className='encabezado'>
-                <h1>MERCADO YA</h1>
+                <h1>
+                   <a className='titulo' href="">MERCADO YA</a>
+                </h1>
             </div>
             <nav className='navegador'>
+                <a className='link' href="">INICIO</a>
                 <a className='link' href="">PRODUCTOS</a>
                 <a className='link' href="">QUIENES SOMOS</a>
                 <a className='link' href="">CONTACTO</a>
@@ -16,4 +19,4 @@ const Header = () =>{
     );
 }
 
-export default Header();
+export default Header

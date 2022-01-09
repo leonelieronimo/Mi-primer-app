@@ -1,0 +1,15 @@
+.navegadorFooter
+{
+    margin-top: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 2, 134);
+    padding: 1.5rem;
+}
+.link
+{
+    color: darkgray;
+    margin: 1rem;
+    font-size: 1.3rem;
+    font-style: oblique;
+}
