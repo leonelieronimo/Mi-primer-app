@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Principal from './Principal'
-import Header from './Header'
-import Footer from './Footer'
+import Header from './componentes/header';
+import Footer from './componentes/footer';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <header className="App-header">
+        <button className = "btn btn-success">BOTON</button>
         <Principal />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
