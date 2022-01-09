@@ -1,11 +1,23 @@
-.encabezado
+.titulo
 {
-    height: 100vh;
-    background-color: rgb(2, 26, 26);
-    color: rgb(253, 253, 253);
+    background-color: darkgray;
+    height: auto;
+    padding: 3rem;
 }
-.links
+h1
+{
+    color:rgb(42, 2, 134);
+}
+
+
+.navegador
 {
     display: flex;
-    align-items: baseline;
+    justify-content: start;
+    background-color: rgb(42, 2, 134);
+    padding: 1.5rem;
+}
+.link
+{
+    color: tomato;
 }
