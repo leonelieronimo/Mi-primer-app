@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './componentes/header';
-import Footer from './componentes/footer';
+import Header from './componentes/Header';
+import Footer from './componentes/Footer';
+
 
 function App() {
   return (
@@ -9,7 +10,6 @@ function App() {
       <Header />
       <header className="App-header">
         <button className = "btn btn-success">BOTON</button>
-        <Principal />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           MERCADO YA

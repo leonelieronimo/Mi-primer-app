@@ -1,0 +1,11 @@
+.encabezado
+{
+    height: 100vh;
+    background-color: rgb(2, 26, 26);
+    color: rgb(253, 253, 253);
+}
+.links
+{
+    display: flex;
+    align-items: baseline;
+}
