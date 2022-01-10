@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './componentes/Header';
+import NavBar from './componentes/NavBar';
 import Footer from './componentes/Footer';
+import carrito from './assets/img/carrito';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <NavBar />
       <footer>
         <Footer />
       </footer>
